@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Reggae+One&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Reggae+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  /* list-style: none; */
+  text-decoration: none;
+}
+/* :root {
+ --main-color:#ff702a;
+ --text-color:#ff702a;
+ --bg-color:#1e1c2a;
+ --big-font:4rem;
+ --h2-font:2.25rem;
+ --p-font:0.9rem;
+}
+*::selection {
+    background: var(--main-color)
+} */
+body {
+  background-color: #1e1c2a !important;
+}
+nav{
+    background-color: #1e1c2a;
+    /* padding: 0px !important; */
+}
+.navbar-toggler span{
+    fill: #efffff;
+}
+.navbar-brand{
+  color: #ff702a;
+  font-size: 2.25rem !important;
+  font-weight: 800 !important;
+  cursor: pointer;
+  
+}
+.navbar-nav li a {
+  color: #efffff !important;
+  /* font-weight: bold; */
+  font-family: 'Ubuntu', sans-serif; 
+}
+.homed{
+    margin-top: 130px !important;
+}
+.home img{
+    max-width: 400px;   
+    width: 100%;
+}
+.home h1{
+    color: #ff702a;
+    overflow: hidden;
+
+}
+.home h5{
+    color: #efffff;
+    font-family: "Poppins", sans-serif;
+}
+.btn{
+    background-color: #fa661d !important;
+    transition: 0.5s ease-in-out !important;
+    outline: none;
+    border: none;
+    
+}
+
+
+/* About page */
+
+.about img{
+    max-width: 400px;   
+    width: 100%;
+    /* height: 100vh; */
+}
+.about .span{
+    color: #ff702a;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif; 
+}
+.about h2{
+    color: #efffff;
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 900;
+}
+
+/* menus  page */
+
+
+.menus .span{
+    color:#ff702a;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif; 
+}
+.box{
+    background-color:#feeee7;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-family: 'Poppins', sans-serif;
+    transition: 1s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    /* overflow-wrap:break-word; */
+
+}
+.box-img{
+    filter: drop-shadow(5px 5px 11px gray);
+}
+.bi-cart-check-fill{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff702a;
+    width: 35px;
+    height: 25px;
+    color: #efffff;
+    padding: 3px ;
+    border-radius: 0 0.5rem 0 0.5rem;
+}
+.box span{
+    color: #ff702a;
+}
+.box:hover{
+    transform: translateY(-15px);
+    
+}
+.btn:hover{
+    transform:rotate(6deg);
+}
+
+
+/* service */
+
+.service-head .span{
+    color:#ff702a;
+    font-weight: 900;
+    /* font-size: 1.2rem !important; */
+    font-family: 'Poppins', sans-serif; 
+}
+.service-head h2{
+    color: #efffff ;
+}
+.s{
+    text-align: center;
+
+}
+.s img{
+    max-width: 130px;
+}
+.s h4{
+    color: #ff702a;
+}
+.s p{
+    color: #efffff;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+/* food  page*/
+.jumbotron{
+    background-color: #feeee7;
+    padding: 40px 0;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.jumbotron h2{
+    font-family:'Ubuntu' , sans-serif; 
+    font-weight: 900;
+
+}
+
+
+/* contauct  page */
+footer h4{
+    color: #efffff;
+    
+}
+
+
+footer ul {
+    list-style: none;
+    text-decoration: none;
+
+}
+footer li {
+    text-decoration: none;
+    line-height: 50px !important;
+    
+
+}
+footer a{
+    text-decoration: none;
+    color:  gray;
+}
+
+
+footer .social i{
+    background-color: #fa661d ;
+    padding: 10px 12px  !important;
+    border-radius: 50%;
+    cursor: progress;
+
+}
+.main{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.Contact .span{
+    color:#ff702a;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.men{
+    background: none;
+    border: none;
+}
+.bi-list{
+ color: #efffff;
+}
+
