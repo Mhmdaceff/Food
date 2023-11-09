@@ -9,17 +9,7 @@
   /* list-style: none; */
   text-decoration: none;
 }
-/* :root {
- --main-color:#ff702a;
- --text-color:#ff702a;
- --bg-color:#1e1c2a;
- --big-font:4rem;
- --h2-font:2.25rem;
- --p-font:0.9rem;
-}
-*::selection {
-    background: var(--main-color)
-} */
+
 body {
   background-color: #1e1c2a !important;
 }
@@ -75,14 +65,15 @@ nav{
     /* height: 100vh; */
 }
 .about .span{
-    color: #ff702a;
-    font-weight: 900;
-    font-family: 'Poppins', sans-serif; 
+    color:#ff702a;
+    font-weight: 50;
+    font-size: 1.2rem !important;
+    font-family: 'Poppins', sans-serif;  
 }
 .about h2{
     color: #efffff;
     font-family: 'Ubuntu', sans-serif; 
-    font-weight: 900;
+    font-weight: 600;
 }
 
 /* menus  page */
@@ -90,7 +81,8 @@ nav{
 
 .menus .span{
     color:#ff702a;
-    font-weight: 900;
+    font-weight: 50;
+    font-size: 1.2rem !important;
     font-family: 'Poppins', sans-serif; 
 }
 .box{
@@ -134,8 +126,8 @@ nav{
 
 .service-head .span{
     color:#ff702a;
-    font-weight: 900;
-    /* font-size: 1.2rem !important; */
+    font-weight: 50;
+    font-size: 1.2rem !important;
     font-family: 'Poppins', sans-serif; 
 }
 .service-head h2{
@@ -166,8 +158,8 @@ nav{
     margin: 0 auto;
 }
 .jumbotron h2{
-    font-family:'Ubuntu' , sans-serif; 
-    font-weight: 900;
+    font-family:'Poppins', sans-serif; 
+    font-weight: 700;
 
 }
 
@@ -200,7 +192,7 @@ footer .social i{
     background-color: #fa661d ;
     padding: 10px 12px  !important;
     border-radius: 50%;
-    cursor: progress;
+    cursor: pointer;
 
 }
 .main{
@@ -209,7 +201,8 @@ footer .social i{
 }
 .Contact .span{
     color:#ff702a;
-    font-weight: 900;
+    font-weight: 50;
+    font-size: 1.2rem !important;
     font-family: 'Poppins', sans-serif; 
 }
 
